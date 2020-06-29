@@ -1,0 +1,17 @@
+{
+  "name": "QuikDB",
+  "description": "An upgraded version of TinyWebDB. Works everywhere, with more features.",
+  "website": "https://succ.pw",
+  "repository": "https://github.com/mauritsf15/quikdb",
+  "logo": "https://succ.pw/",
+  "addons": [
+    "heroku-postgresql:hobby-dev"
+  ],
+  "keywords": [
+    "tinywebdb",
+    "python",
+    "flask",
+    "sqlalchemy",
+    "postgresql",
+  ],
+}
