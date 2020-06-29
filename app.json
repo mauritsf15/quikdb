@@ -3,7 +3,7 @@
   "description": "An upgraded version of TinyWebDB. Works everywhere, with more features.",
   "website": "https://succ.pw",
   "repository": "https://github.com/mauritsf15/quikdb",
-  "logo": "https://succ.pw/",
+  "logo": "https://succ.pw/succ.gif",
   "addons": [
     "heroku-postgresql:hobby-dev"
   ],
