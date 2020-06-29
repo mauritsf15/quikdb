@@ -24,7 +24,7 @@ db.session.commit()
 
 @app.route('/')
 def main_method():
-    return 'QuikDB works!'
+    return jsonify(action="SUCCESS",result=True)
 
 
 # -------------------------
@@ -270,16 +270,16 @@ def is_locked():
 
 @app.errorhandler(405)
 def method_not_allowed(e):
-    return jsonify(action="ERROR",result="Method is not allowed!"), 405
+    return jsonify(action="ERROR",result="Method is not allowed."), 405
 
 @app.errorhandler(404)
 def not_found(e):
-    return jsonify(action="ERROR",result="The requested URL was not found on the QuikDB instance!"), 404
+    return jsonify(action="ERROR",result="The requested URL was not found on the Database."), 404
 
 @app.errorhandler(500)
 def internal_error(error):
     db.session.rollback()
-    return jsonify(action="ERROR",result="Internal server error!"), 500
+    return jsonify(action="ERROR",result="Internal server error."), 500
 
 # Returns error.
 def return_error(message):
