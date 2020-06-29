@@ -24,7 +24,7 @@ db.session.commit()
 
 @app.route('/')
 def main_method():
-    return jsonify(action="SUCCESS",result=True)
+    return 'Database is up and running'
 
 
 # -------------------------
