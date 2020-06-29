@@ -1,0 +1,21 @@
+{
+  "name": "QuikDB",
+  "description": "A better way to store tag/value",
+  "website": "https://quikdb.xyz",
+  "repository": "https://github.com/ysfchn/AsteroidDB",
+  "logo": "https://yusufcihan.com/img/icon.png",
+  "addons": [
+    "heroku-postgresql:hobby-dev"
+  ],
+  "keywords": [
+    "sql",
+    "database",
+    "android",
+    "python",
+    "flask",
+    "sqlalchemy",
+    "postgresql",
+    "webdb"
+  ],
+  "generator": "https://www.expeditedssl.com/heroku-button-maker"
+}
